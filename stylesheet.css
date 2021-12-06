@@ -48,6 +48,7 @@ header{
 .top{
     background-image: url(images/2F623169-A48F-4100-86BC-83075463F17B.jpg);
     background-size: cover;
+    background-position: center;
     padding-top: 250px;
     padding-bottom: 250px;
     text-align: center;

@@ -95,14 +95,13 @@ header{
     background-blend-mode: lighten;
     background-size: cover;
     text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding: 150px 0px;
 }
 
 .tips h2{
     font-size: 40px;
     font-family: serif;
-    margin-bottom: 45px;
+    margin-bottom: 65px;
 }
 
 .tip{
@@ -125,7 +124,7 @@ header{
 .tip p{
     width: 80%;
     display: inline-block;
-    margin-top: 45px;
+    margin:45px 0px;
 }
 
 .refresh{

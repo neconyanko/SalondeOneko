@@ -1,16 +1,35 @@
+@media(min-width:1000px){
+    .br-pc{display: inline-block;}
+    .br-tb{display: none;}
+}
+
+
 @media(max-width:1000px){
+    .br-pc{display: none;}
+    .br-tb{display:inline-block}
+
     .top{
-        
+        padding-top: 130px;
+        padding-bottom: 100px;
     }
 
     .top h1{
-        font-size:50px;
+        font-size:55px;
     }
 
     
     .tips{
-        padding:100px 0px;
+        padding:90px 0px;
     }
+
+    .tips h2{
+        font-size: 38px;
+    }
+
+    .tip{
+        width:100%;
+    }
+
 }
 
 @media(max-width:670px){

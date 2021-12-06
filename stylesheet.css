@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.btn{
+    text-decoration: none;
+    color:white;
+}
+
+header{
+    background-color: #032c61;
+    height: 80px;
+    padding-left: 25px;
+    opacity: 0.8;
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    top:0px;
+}
+
+.header-logo{
+    height: 80px;
+    float:left;
+}
+
+.header-menu{
+    font-size: 15px;
+    float:right;
+    line-height: 80px;
+}
+
+.contact{
+    display:block;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:rgba(172, 230, 227, 0.5);
+}
+
+.contact:hover{
+    background-color:rgba(172, 230, 227, 1)
+}
+
+.top{
+    background-image: url(images/2F623169-A48F-4100-86BC-83075463F17B.jpg);
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.top h1{
+    font-size: 60px;
+    color:whitesmoke;
+    font-family:serif;
+    opacity: 1;
+}
+
+.top p{
+    color:whitesmoke;
+    font-size: 20px;
+    opacity: 1;
+}
+
+.reserve{
+    display: inline-block;
+    font-size: 20px;
+    background-color:rgba(0, 27, 100,1);
+    padding:15px 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 8px rgb(61, 61, 61);
+}
+
+.reserve:hover{
+    background-color: rgb(33, 66, 158);
+}
+
+.reserve:active{
+    box-shadow: none;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+
+.tips{
+    background-image: url(images/無題185.png);
+    background-color: rgba(255, 255, 255,0.2);
+    background-blend-mode: lighten;
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.tips h2{
+    font-size: 40px;
+    font-family: serif;
+    margin-bottom: 45px;
+}
+
+.tip{
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.clear{
+    clear:left;
+}
+
+
+.tip a{
+    display: inline-block;
+}
+
+.tip p{
+    width: 80%;
+    display: inline-block;
+    margin-top: 45px;
+}
+
+.refresh{
+    background-image: url(images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255,0.2);
+    background-blend-mode: lighten;
+    padding: 90px;
+    font-size: 30px;
+    border-radius: 45px;
+    box-shadow: 10px 13px rgb(119, 119, 119);
+}
+
+.refresh:hover{
+    background-color:transparent;
+}
+
+.refresh:active{
+    box-shadow: none;
+    position: relative;
+    top: 13px;
+    left: 10px;
+}
+
+.concentrate{
+    background-image: url(images/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255,0.2);
+    background-blend-mode: lighten;
+    padding: 90px;
+    font-size: 30px;
+    border-radius: 45px;
+    box-shadow: 10px 13px rgb(119, 119, 119);
+
+
+
+}
+
+.concentrate:hover{
+    background-color:transparent;
+}
+
+.concentrate:active{
+    box-shadow: none;
+    position: relative;
+    top: 13px;
+    left: 10px;
+}
+
+
+footer{
+    background-color:rgba(0, 28, 88,1);
+    text-align: center;
+    padding-bottom:10px;
+}
+
+footer img{
+    height:100px;
+
+}
+footer p{
+    color: whitesmoke;
+    font-family: serif;
+}

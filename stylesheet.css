@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
 }
 
 .container{
@@ -15,7 +16,6 @@
 header{
     background-color: #032c61;
     height: 80px;
-    padding-left: 25px;
     opacity: 0.8;
     z-index: 10;
     width: 100%;
@@ -26,6 +26,7 @@ header{
 .header-logo{
     height: 80px;
     float:left;
+    padding-left: 25px;
 }
 
 .header-menu{
@@ -190,3 +191,4 @@ footer p{
     color: whitesmoke;
     font-family: serif;
 }
+
